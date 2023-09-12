@@ -1,0 +1,35 @@
+'use client'
+
+import { Typewriter, Cursor } from 'react-simple-typewriter'
+import Switch from 'react-switch'
+import { BsFillSunFill, BsFillMoonStarsFill } from 'react-icons/bs'
+import { Chakra_Petch } from 'next/font/google'
+import { useTheme } from 'next-themes'
+
+const chakra = Chakra_Petch({ subsets: ['latin'], weight: '600' })
+
+export default function Header() {
+    const {theme, setTheme} = useTheme();
+
+    return(
+        <header className={`flex justify-between items-center py-3 px-20 bg-gray-500 text-5xl font-bold ${chakra.className}`}>
+            <div>
+                <Typewriter words={['Dev Frontend', 'Paulo Turino']} loop={3} />
+                <Cursor />
+            </div>
+            <nav className='text-2xl flex gap-4 absolute left-2/4 self-end'>
+                <a href="#about" className='hover-border-animation'>Sobre</a>
+                <a href="#techs" className='hover-border-animation'>Techs</a>
+                <a href="#portfolio" className='hover-border-animation'>Portfólio</a>
+            </nav>
+            <Switch 
+                onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} 
+                checked={theme === 'dark' ? true : false} 
+                checkedIcon={<BsFillSunFill className='text-3xl ml-1 pt-1' />}
+                uncheckedIcon={<BsFillMoonStarsFill className='text-3xl ml-1 pt-1' />}
+                width={75}
+                height={35}
+            />
+        </header>
+    )
+}

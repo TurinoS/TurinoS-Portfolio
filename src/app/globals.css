@@ -3,11 +3,24 @@
 @tailwind utilities;
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-stone-100 text-stone-900 dark:bg-slate-900 dark:text-stone-100;
+}
+
+.hover-border-animation {
+  position: relative;
+}
+
+.hover-border-animation::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-border-animation:hover::before {
+  width: 100%;
 }
