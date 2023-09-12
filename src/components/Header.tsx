@@ -12,7 +12,9 @@ export default function Header() {
     const {theme, setTheme} = useTheme();
 
     return(
-        <header className={`flex justify-between items-center py-3 px-20 bg-gray-500 text-5xl font-bold ${chakra.className}`}>
+        <header className={`flex justify-between items-center py-3 px-20 bg-[var(--bg-light-secondary)] dark:bg-[var(--bg-dark-secondary)] text-5xl font-bold ${chakra.className}`}
+            style={{boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.4)'}}
+        >
             <div>
                 <Typewriter words={['Dev Frontend', 'Paulo Turino']} loop={3} />
                 <Cursor />
@@ -25,10 +27,12 @@ export default function Header() {
             <Switch 
                 onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} 
                 checked={theme === 'dark' ? true : false} 
-                checkedIcon={<BsFillSunFill className='text-3xl ml-1 pt-1' />}
-                uncheckedIcon={<BsFillMoonStarsFill className='text-3xl ml-1 pt-1' />}
+                checkedIcon={<BsFillSunFill className='text-3xl ml-1 pt-1 dark:text-[var(--interactive-dark)]' />}
+                uncheckedIcon={<BsFillMoonStarsFill className='text-3xl ml-1 pt-1 text-[var(--primary-dark)]' />}
                 width={75}
                 height={35}
+                onColor='#249fdd'
+                offColor='#032434'
             />
         </header>
     )

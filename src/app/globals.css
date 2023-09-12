@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-dark: #fff;
+  --secondary-dark: #b0bec5;
+  --interactive-dark: rgb(255, 238, 0);
+  --bg-dark: #032434;
+  --bg-dark-secondary: #37474f;
+  --primary-light: #000;
+  --secondary-light: #05364f;
+  --interactive-light: rgb(2, 68, 126);
+  --bg-light: #559dc1;
+  --bg-light-secondary: #77b9da;
+}
+
 body {
-  @apply bg-stone-100 text-stone-900 dark:bg-slate-900 dark:text-stone-100;
+  @apply bg-[var(--bg-light)] dark:bg-[var(--bg-dark)] text-[var(--primary-light)] dark:text-[var(--primary-dark)];
 }
 
 .hover-border-animation {
@@ -17,7 +30,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #000;
+  @apply bg-[var(--bg-light)] dark:bg-[var(--bg-dark)];
   transition: width 0.3s ease-in-out;
 }
 
