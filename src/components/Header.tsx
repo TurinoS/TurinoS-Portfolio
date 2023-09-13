@@ -19,7 +19,7 @@ export default function Header() {
                 <Typewriter words={['Dev Frontend', 'Paulo Turino']} loop={3} />
                 <Cursor />
             </div>
-            <nav className='text-2xl flex gap-4 absolute left-2/4 self-end'>
+            <nav className='text-2xl flex gap-16 absolute right-1/4 self-end'>
                 <a href="#about" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Sobre</a>
                 <a href="#techs" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Techs</a>
                 <a href="#portfolio" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Portfólio</a>
@@ -27,7 +27,7 @@ export default function Header() {
             <Switch 
                 onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} 
                 checked={theme === 'dark' ? true : false} 
-                checkedIcon={<BsFillSunFill className='text-3xl ml-1 pt-1 dark-text-gradient' />}
+                checkedIcon={<BsFillSunFill className='text-3xl ml-1 pt-1 text-[var(--primary-dark)]' />}
                 uncheckedIcon={<BsFillMoonStarsFill className='text-3xl ml-1 pt-1 text-[var(--secondary-dark)]' />}
                 width={75}
                 height={35}
