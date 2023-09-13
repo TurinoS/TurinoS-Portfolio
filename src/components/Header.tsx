@@ -12,7 +12,7 @@ export default function Header() {
     const {theme, setTheme} = useTheme();
 
     return(
-        <header className={`flex justify-between items-center py-3 px-20 bg-[var(--bg-light-secondary)] dark:bg-[var(--bg-dark-secondary)] text-5xl font-bold sticky top-0 ${chakra.className}`}
+        <header className={`flex justify-between items-center py-3 px-20 bg-[var(--bg-light-secondary)] dark:bg-[var(--bg-dark-secondary)] text-5xl font-bold sticky top-0 z-20 ${chakra.className}`}
             style={{boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.4)'}}
         >
             <div className={`${theme === 'dark' ? 'dark-text-gradient' : 'text-gradient'}`}>
