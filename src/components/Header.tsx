@@ -15,13 +15,13 @@ export default function Header() {
         <header className={`flex justify-between items-center py-3 px-20 bg-[var(--bg-light-secondary)] dark:bg-[var(--bg-dark-secondary)] text-5xl font-bold sticky top-0 z-20 ${chakra.className}`}
             style={{boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.4)'}}
         >
-            <div className={`${theme === 'dark' ? 'dark-text-gradient' : 'text-gradient'}`}>
+            <a href="#banner" className={`${theme === 'dark' ? 'dark-text-gradient' : 'text-gradient'}`}>
                 <Typewriter words={['Dev Frontend', 'Paulo Turino']} loop={3} />
                 <Cursor />
-            </div>
+            </a>
             <nav className='text-2xl flex gap-16 absolute right-1/4 self-end'>
-                <a href="#about" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Sobre</a>
                 <a href="#techs" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Techs</a>
+                <a href="#about" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Sobre</a>
                 <a href="#portfolio" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Portfólio</a>
             </nav>
             <Switch 
