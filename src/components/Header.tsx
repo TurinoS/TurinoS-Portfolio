@@ -20,8 +20,8 @@ export default function Header() {
                 <Cursor />
             </a>
             <nav className='text-2xl flex gap-16 absolute right-1/4 self-end'>
-                <a href="#techs" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Techs</a>
                 <a href="#about" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Sobre</a>
+                <a href="#history" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>História</a>
                 <a href="#portfolio" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Portfólio</a>
             </nav>
             <Switch 

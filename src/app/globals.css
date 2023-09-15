@@ -16,7 +16,7 @@
 }
 
 body {
-  @apply bg-[var(--bg-light)] dark:bg-[var(--bg-dark)] text-[var(--interactive-light)] dark:text-[var(--interactive-dark)];
+  @apply bg-[var(--bg-light)] dark:bg-[var(--bg-dark)] text-blue-900 dark:text-orange-500;
 }
 
 .hover-border-animation {
