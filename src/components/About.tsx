@@ -1,5 +1,4 @@
 import { techs } from "@/lists/techs";
-import { aboutText } from "@/lists/aboutText";
 import { useTheme } from "next-themes";
 import Tilt from "react-parallax-tilt";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
@@ -11,7 +10,7 @@ export default function About() {
   return (
     <section className="flex flex-col my-16">
       <div
-        className={`flex px-20 py-6 ${
+        className={`flex px-20 py-12 ${
           theme === "dark"
             ? "bg-[var(--bg-dark-secondary)]"
             : "bg-[var(--bg-light-secondary)]"
@@ -71,7 +70,7 @@ export default function About() {
             equipes dinâmicas. Se você está interessado em explorar
             oportunidades de colaboração, estou à disposição para uma conversa.
           </p>
-          <div className="flex gap-10 self-center text-4xl mt-4" id="history">
+          <div className="flex gap-10 self-center text-4xl mt-4" id="portfolio">
             <a
               target="_blank"
               href="mailto:paulo.turino01@gmail.com"
@@ -94,25 +93,6 @@ export default function About() {
               <BsInstagram />
             </a>
           </div>
-        </div>
-      </div>
-      <div className={`flex flex-col pt-16 gap-4`}>
-        <h2
-          className={`text-4xl text-center self-center font-bold pb-4 ${
-            theme === "dark" ? "dark-text-gradient" : "text-gradient"
-          }`}
-        >
-          Minha história
-        </h2>
-        <div className="flex flex-col gap-4 px-16">
-          {aboutText.map((p) => (
-            <p
-              key={p.id}
-              className="text-xl dark:text-orange-200 text-blue-900"
-            >
-              {p.text}
-            </p>
-          ))}
         </div>
       </div>
     </section>

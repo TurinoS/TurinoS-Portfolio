@@ -6,7 +6,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 export default function Banner() {
     const { theme } = useTheme()
     return(
-        <section className="flex justify-between w-full" id="banner">
+        <section className="flex justify-between w-full pt-24" id="banner">
             <div className={`flex flex-col justify-center items-center m-auto ${theme === 'dark'? "dark-text-gradient" : "text-gradient"}`}>
                 <h1 className="text-6xl font-bold">Paulo Turino Silva</h1>
                 <h2 className="text-4xl font-bold">Desenvolvedor Frontend</h2>

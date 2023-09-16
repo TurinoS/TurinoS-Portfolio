@@ -21,8 +21,8 @@ export default function Header() {
             </a>
             <nav className='text-2xl flex gap-16 absolute right-1/4 self-end'>
                 <a href="#about" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Sobre</a>
-                <a href="#history" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>História</a>
                 <a href="#portfolio" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>Portfólio</a>
+                <a href="#history" className={`${theme === 'dark' ? 'dark-text-gradient hover-border-animation-dark' : 'text-gradient hover-border-animation'}`}>História</a>
             </nav>
             <Switch 
                 onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} 
