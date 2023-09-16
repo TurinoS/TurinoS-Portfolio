@@ -9,7 +9,7 @@ export default function About() {
   const { theme } = useTheme();
 
   return (
-    <section className="flex flex-col my-16" id="history">
+    <section className="flex flex-col my-16">
       <div
         className={`flex px-20 py-6 ${
           theme === "dark"
@@ -71,7 +71,7 @@ export default function About() {
             equipes dinâmicas. Se você está interessado em explorar
             oportunidades de colaboração, estou à disposição para uma conversa.
           </p>
-          <div className="flex gap-10 self-center text-4xl mt-4">
+          <div className="flex gap-10 self-center text-4xl mt-4" id="history">
             <a
               target="_blank"
               href="mailto:paulo.turino01@gmail.com"
