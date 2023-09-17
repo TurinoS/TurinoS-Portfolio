@@ -1,9 +1,9 @@
-type AbouteTypes = {
+type AboutTypes = {
   id: number;
   text: string;
 };
 
-export const aboutText: AbouteTypes[] = [
+export const aboutText: AboutTypes[] = [
   {
     id: 1,
     text: "Nasci e cresci na cidade de Presidente Prudente, no interior de São Paulo. Sou o caçula de uma família de três irmãos. Após me formar em Engenharia Química em 2018, estagiei em uma fábrica de baterias. Entretanto, percebi que não era a carreira que eu desejava.",
