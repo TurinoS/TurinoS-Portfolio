@@ -46,18 +46,19 @@ export const projects: ProjectsTypes[] = [
   },
   {
     id: 4,
-    name: "Multi Step Form",
+    name: "TurinoS Store",
     imgs: [
-        "/pokedex-thumb.jpg", 
-        "/pokedex-thumb.jpg", 
-        "/pokedex-thumb.jpg"],
+      "/ecommerce1.jpg", 
+      "/ecommerce2.jpg", 
+      "/ecommerce3.jpg"
+    ],
     text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
     repo: "https://github.com/TurinoS/NBA-Players-Stats",
-    app: "#",
+    app: "https://turinos-store.vercel.app/",
   },
   {
     id: 5,
-    name: "NBA Players Stats",
+    name: "Multi Step Form",
     imgs: [
         "/pokedex-thumb.jpg", 
         "/pokedex-thumb.jpg", 
