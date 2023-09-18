@@ -19,4 +19,26 @@ export const projects: ProjectsTypes[] = [
     repo: "#",
     app: "#",
   },
+  {
+    id: 1,
+    name: "pokedex",
+    imgs: [
+        "/pokedex-thumb.jpg", 
+        "/pokedex-thumb.jpg", 
+        "/pokedex-thumb.jpg"],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "#",
+    app: "#",
+  },
+  {
+    id: 1,
+    name: "pokedex",
+    imgs: [
+        "/pokedex-thumb.jpg", 
+        "/pokedex-thumb.jpg", 
+        "/pokedex-thumb.jpg"],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "#",
+    app: "#",
+  },
 ];

@@ -34,8 +34,11 @@ export default function Portfolio({ projects }: PortfolioProps) {
       </h2>
 
       {projects?.map((project) => (
-        <div className="flex" key={project.id}>
-          <div className="w-full cursor-grab rounded-xl mt-10 relative">
+        <div className="flex even:flex-row-reverse pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500" key={project.id}
+          data-aos="fade-down"
+          data-aos-duration="1300"
+        >
+          <div className="w-full cursor-grab rounded-xl mt-2 relative">
             <div className="group overflow-hidden rounded-xl">
               <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
@@ -66,7 +69,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
             </div>
           </div>
 
-          <div className="flex flex-col pb-2">
+          <div className="flex flex-col pb-2 mt-6">
             <h3
               className={`text-2xl text-center font-bold ${
                 theme === "dark" ? "dark-text-gradient" : "text-gradient"
