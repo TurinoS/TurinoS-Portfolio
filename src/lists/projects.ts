@@ -71,7 +71,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://vercel.com/turinos/multi-step-form",
   },
   {
-    id: 5,
+    id: 6,
     name: "TMDB App",
     imgs: [
       "/tmdb1.jpg", 
@@ -81,5 +81,50 @@ export const projects: ProjectsTypes[] = [
     text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
     repo: "https://github.com/TurinoS/TMDB-app",
     app: "https://top-movies-turinos.vercel.app/",
+  },
+  {
+    id: 7,
+    name: "Avice Generator",
+    imgs: [
+      "/advice1.jpg", 
+      "/advice2.jpg", 
+      "/advice3.jpg"
+    ],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "https://github.com/TurinoS/advice-generator",
+    app: "https://advice-generator-turinos.vercel.app/",
+  },
+  {
+    id: 8,
+    name: "Marvel Heroes",
+    imgs: [
+      "/marvel1.jpg", 
+      "/marvel2.jpg"
+    ],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "https://github.com/TurinoS/marvel-fpass",
+    app: "https://marvel-fpass-turinos.vercel.app/",
+  },
+  {
+    id: 9,
+    name: "World Countries",
+    imgs: [
+      "/countries1.jpg", 
+      "/countries2.jpg"
+    ],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "https://github.com/TurinoS/world-countries",
+    app: "https://world-countries-turinos.vercel.app/",
+  },
+  {
+    id: 10,
+    name: "World Countries",
+    imgs: [
+      "/age1.jpg", 
+      "/age2.jpg"
+    ],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "https://github.com/TurinoS/Age-calculator",
+    app: "https://age-calculator-turinos.vercel.app/",
   },
 ];

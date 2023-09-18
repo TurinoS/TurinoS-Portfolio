@@ -34,7 +34,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
       </h2>
 
       {projects?.map((project) => (
-        <div className="flex even:flex-row-reverse pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500" key={project.id}
+        <div className="flex even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500" key={project.id}
           data-aos="fade-up"
           data-aos-duration="1300"
         >
