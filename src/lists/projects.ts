@@ -53,18 +53,33 @@ export const projects: ProjectsTypes[] = [
       "/ecommerce3.jpg"
     ],
     text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
-    repo: "https://github.com/TurinoS/NBA-Players-Stats",
+    repo: "https://github.com/TurinoS/TurinoS-Store",
     app: "https://turinos-store.vercel.app/",
   },
   {
     id: 5,
     name: "Multi Step Form",
     imgs: [
-        "/pokedex-thumb.jpg", 
-        "/pokedex-thumb.jpg", 
-        "/pokedex-thumb.jpg"],
+      "/multistep1.jpg", 
+      "/multistep2.jpg", 
+      "/multistep3.jpg",
+      "/multistep4.jpg",
+      "/multistep5.jpg"
+    ],
     text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
-    repo: "https://github.com/TurinoS/NBA-Players-Stats",
-    app: "#",
+    repo: "https://github.com/TurinoS/Multi-step-Form",
+    app: "https://vercel.com/turinos/multi-step-form",
+  },
+  {
+    id: 5,
+    name: "TMDB App",
+    imgs: [
+      "/tmdb1.jpg", 
+      "/tmdb2.jpg", 
+      "/tmdb3.jpg"
+    ],
+    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    repo: "https://github.com/TurinoS/TMDB-app",
+    app: "https://top-movies-turinos.vercel.app/",
   },
 ];
