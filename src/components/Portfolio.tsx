@@ -35,7 +35,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
 
       {projects?.map((project) => (
         <div className="flex even:flex-row-reverse pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500" key={project.id}
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="1300"
         >
           <div className="w-full cursor-grab rounded-xl mt-2 relative">
@@ -61,7 +61,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
                       src={img}
                       alt="Thumbnail Pokédex"
                       width={500}
-                      height={300}
+                      height={50}
                     />
                   </SwiperSlide>
                 ))}
