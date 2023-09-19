@@ -10,18 +10,6 @@ export type ProjectsTypes = {
 export const projects: ProjectsTypes[] = [
   {
     id: 1,
-    name: "Pokédex",
-    imgs: [
-      "/pokedex1.jpg", 
-      "/pokedex2.jpg", 
-      "/pokedex3.jpg"
-    ],
-    text: "Projeto desenvolvido usando Next.js, TypeScript e Styled Components. Os dados foram recebidos da RESTful API chamada PokéApi. O objetivo foi entender um pouco mais sobre context API e sobre as tipagens do TypeScript. Fiquei muito satisfeito por ter conseguido construir as barras dos stats dos pokémons usando CSS, algo que se mostrou um desafio.",
-    repo: "https://github.com/TurinoS/Pokedex",
-    app: "https://pokedex-turinos.vercel.app/",
-  },
-  {
-    id: 2,
     name: "Rock Paper Scissors",
     imgs: [
       "/jokenpo1.jpg", 
@@ -33,7 +21,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://rock-paper-scissors-game-turinos.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
     name: "NBA Players Stats",
     imgs: [
       "/nba1.jpg", 
@@ -45,7 +33,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://nba-players-stats-turinos.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     name: "TurinoS Store",
     imgs: [
       "/ecommerce1.jpg", 
@@ -57,7 +45,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://turinos-store.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     name: "Multi Step Form",
     imgs: [
       "/multistep1.jpg", 
@@ -66,9 +54,21 @@ export const projects: ProjectsTypes[] = [
       "/multistep4.jpg",
       "/multistep5.jpg"
     ],
-    text: "Desafio tirado do site 'frontendmentor.io'. desenvolvido com Next.js, TypeScript e Styled Components. Como trata-se de um fomulário em várias etapas, gerenciar os estados e passá-los para toda a aplicação transformou esse projeto num verdadeiro desafio de lógica de programação que me ajudou a entender melhor a importância de saber usar o React hook useContext.",
+    text: "Desenvolvido com Next.js, TypeScript e Styled Components. Como trata-se de um fomulário em várias etapas, gerenciar os estados e passá-los para toda a aplicação transformou esse projeto num verdadeiro desafio de lógica de programação que me ajudou a entender melhor a importância de saber usar o React hook useContext.",
     repo: "https://github.com/TurinoS/Multi-step-Form",
     app: "https://vercel.com/turinos/multi-step-form",
+  },
+  {
+    id: 5,
+    name: "Advice Generator",
+    imgs: [
+      "/advice1.jpg", 
+      "/advice2.jpg", 
+      "/advice3.jpg"
+    ],
+    text: "Desenvolvido utilizando Next.js, TypeScript e Styled Components. Foi consumida a 'Advice Slip JSON API' para gerar conselhos aleatórios, porém, como os conselhos são gerados em inglês, trabalhei para implementar a 'Cloud Translation API' para traduzir automaticamente, mas por ser uma API paga, fiz a implementação mas deixei no README como fazer a ativação da tradução.",
+    repo: "https://github.com/TurinoS/advice-generator",
+    app: "https://advice-generator-turinos.vercel.app/",
   },
   {
     id: 6,
@@ -84,47 +84,47 @@ export const projects: ProjectsTypes[] = [
   },
   {
     id: 7,
-    name: "Advice Generator",
+    name: "Calculadora de idade",
     imgs: [
-      "/advice1.jpg", 
-      "/advice2.jpg", 
-      "/advice3.jpg"
+      "/age1.jpg", 
+      "/age2.jpg"
     ],
-    text: "Desenvolvido utilizando Next.js, TypeScript e Styled Components. Foi consumida a 'Advice Slip JSON API' para gerar conselhos aleatórios, porém, como os conselhos são gerados em inglês, trabalhei para implementar a 'Cloud Translation API' para traduzir automaticamente, mas por ser uma API paga, fiz a implementação mas deixei no README como fazer a ativação da tradução.",
-    repo: "https://github.com/TurinoS/advice-generator",
-    app: "https://advice-generator-turinos.vercel.app/",
+    text: "Esse projeto foi foi desenvolvido com Next.js e TypeScript e se mostrou um desafio de lógica bem interessante, devido à implementação da validação dos dados do formulário e da subtração de datas, levando em conta que alguns meses têm 31, 30 ou 28 dias e ainda levando em consideração a existência dos anos bissextos.",
+    repo: "https://github.com/TurinoS/Age-calculator",
+    app: "https://age-calculator-turinos.vercel.app/",
   },
   {
     id: 8,
+    name: "Pokédex",
+    imgs: [
+      "/pokedex1.jpg", 
+      "/pokedex2.jpg", 
+      "/pokedex3.jpg"
+    ],
+    text: "Projeto desenvolvido usando Next.js, TypeScript e Styled Components. Os dados foram recebidos da RESTful API chamada PokéApi. O objetivo foi entender um pouco mais sobre context API e sobre as tipagens do TypeScript. Fiquei muito satisfeito por ter conseguido construir as barras dos stats dos pokémons usando CSS, algo que se mostrou um desafio.",
+    repo: "https://github.com/TurinoS/Pokedex",
+    app: "https://pokedex-turinos.vercel.app/",
+  },
+  {
+    id: 9,
     name: "Marvel Heroes",
     imgs: [
       "/marvel1.jpg", 
       "/marvel2.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Desenvolvido usando React, TyperScript e foi meu primeiro projeto usando o Styled Components o que facilita ainda mais a componentização característica do React. No Marvel Heroes o usuário encontra imagens e informações dos personagens da Marvel Comics. Os dados foram obtidos consumindo a REST API da própria Marvel disponível no site da mesma.",
     repo: "https://github.com/TurinoS/marvel-fpass",
     app: "https://marvel-fpass-turinos.vercel.app/",
-  },
-  {
-    id: 9,
-    name: "World Countries",
-    imgs: [
-      "/countries1.jpg", 
-      "/countries2.jpg"
-    ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
-    repo: "https://github.com/TurinoS/world-countries",
-    app: "https://world-countries-turinos.vercel.app/",
   },
   {
     id: 10,
     name: "World Countries",
     imgs: [
-      "/age1.jpg", 
-      "/age2.jpg"
+      "/countries1.jpg", 
+      "/countries2.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
-    repo: "https://github.com/TurinoS/Age-calculator",
-    app: "https://age-calculator-turinos.vercel.app/",
+    text: "Minha primeira experiência com o Next.js e com o TypeScript. O desafio de aprender duas tecnologias novas ao mesmo tempo foi um desafio grande mas que me ajudou a desenvolver minha capacidade de aprendizado. Nesse projeto foi consumida a Rest Countries API e o usuário pode consultar dados de qualquer país do mundo.",
+    repo: "https://github.com/TurinoS/world-countries",
+    app: "https://world-countries-turinos.vercel.app/",
   },
 ];
