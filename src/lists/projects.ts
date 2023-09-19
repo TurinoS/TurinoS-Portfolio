@@ -16,7 +16,7 @@ export const projects: ProjectsTypes[] = [
       "/pokedex2.jpg", 
       "/pokedex3.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Projeto desenvolvido usando Next.js, TypeScript e Styled Components. Os dados foram recebidos da RESTful API chamada PokéApi. O objetivo foi entender um pouco mais sobre context API e sobre as tipagens do TypeScript. Fiquei muito satisfeito por ter conseguido construir as barras dos stats dos pokémons usando CSS, algo que se mostrou um desafio.",
     repo: "https://github.com/TurinoS/Pokedex",
     app: "https://pokedex-turinos.vercel.app/",
   },
@@ -28,7 +28,7 @@ export const projects: ProjectsTypes[] = [
       "/jokenpo2.jpg", 
       "/jokenpo3.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Construido utilizando Next.js, TypeScript e Tailwind CSS. Foi meu primeiro projeto fazendo uso do Local Storage para armazenar dados. Então o usuário pode sair da página e quando voltar sua pontuação estará salva no navegador e poderá constinuar de onde parou.",
     repo: "https://github.com/TurinoS/Rock-Paper_Scissors-Game",
     app: "https://rock-paper-scissors-game-turinos.vercel.app/",
   },
@@ -40,7 +40,7 @@ export const projects: ProjectsTypes[] = [
       "/nba2.jpg", 
       "/nba3.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Utilizei Next.js, TypeScript e, pela primeira vez, Tailwind CSS para desenvolver esse projeto. No NBA Payers Stats o usuário pode comparar as estatísticas dos jogadores da NBA selecionando por temporada. A API consumida foi a 'balldontlie'.",
     repo: "https://github.com/TurinoS/NBA-Players-Stats",
     app: "https://nba-players-stats-turinos.vercel.app/",
   },
@@ -52,7 +52,7 @@ export const projects: ProjectsTypes[] = [
       "/ecommerce2.jpg", 
       "/ecommerce3.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "A TurinoS Store foi construida usando Next.js, TypeScript e Styled Components. Foi minha primeira experiência aplicando o 'mobile first', o que facilitou muito a trabalhar com a responsividade da aplicação. Foi bem interessante também trabalhar com a lógica necessária para fazer um carrinho de compras dinâmico.",
     repo: "https://github.com/TurinoS/TurinoS-Store",
     app: "https://turinos-store.vercel.app/",
   },

@@ -77,12 +77,10 @@ export default function Portfolio({ projects }: PortfolioProps) {
             >
               {project.name}
             </h3>
-            <p className="text-lg h-full dark:text-orange-200 text-blue-900 pt-4">
-              Aplicação construída utilizando tal tal e tal tecnologias
-              desenvolvida com o intuito de aprender tal coisa consumindo a Api
-              pokeAPI
+            <p className="text-lg h-full dark:text-orange-200 text-blue-900 py-4 px-8">
+              {project.text}
             </p>
-            <div className={`flex gap-10 self-center justify-self-end`}>
+            <div className={`flex gap-10 self-center justify-self-end mt-2`}>
               <Link
                 href={project.app}
                 className={`button-gradient text-xl font-bold py-1 px-2 mr-10 border border-transparent transition-color ${
