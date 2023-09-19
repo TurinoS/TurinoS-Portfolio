@@ -66,7 +66,7 @@ export const projects: ProjectsTypes[] = [
       "/multistep4.jpg",
       "/multistep5.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Desafio tirado do site 'frontendmentor.io'. desenvolvido com Next.js, TypeScript e Styled Components. Como trata-se de um fomulário em várias etapas, gerenciar os estados e passá-los para toda a aplicação transformou esse projeto num verdadeiro desafio de lógica de programação que me ajudou a entender melhor a importância de saber usar o React hook useContext.",
     repo: "https://github.com/TurinoS/Multi-step-Form",
     app: "https://vercel.com/turinos/multi-step-form",
   },
@@ -78,19 +78,19 @@ export const projects: ProjectsTypes[] = [
       "/tmdb2.jpg", 
       "/tmdb3.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Projeto desenvolvido com Next.js, TypeScript e Styled Components. Feito com o intuito de implementar a troca de temas no site. Os dados foram consumidos da API TMDB. O maior aprendizado do projeto foi a importância do planejamento e da definição do projeto antes do início dos trabalhos.",
     repo: "https://github.com/TurinoS/TMDB-app",
     app: "https://top-movies-turinos.vercel.app/",
   },
   {
     id: 7,
-    name: "Avice Generator",
+    name: "Advice Generator",
     imgs: [
       "/advice1.jpg", 
       "/advice2.jpg", 
       "/advice3.jpg"
     ],
-    text: "Minha pokedex que ficou lindíssima mas que demora para receber os dados da APi essa bosta hehehe",
+    text: "Desenvolvido utilizando Next.js, TypeScript e Styled Components. Foi consumida a 'Advice Slip JSON API' para gerar conselhos aleatórios, porém, como os conselhos são gerados em inglês, trabalhei para implementar a 'Cloud Translation API' para traduzir automaticamente, mas por ser uma API paga, fiz a implementação mas deixei no README como fazer a ativação da tradução.",
     repo: "https://github.com/TurinoS/advice-generator",
     app: "https://advice-generator-turinos.vercel.app/",
   },
