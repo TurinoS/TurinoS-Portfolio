@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react"
 import { projects } from "@/lists/projects";
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -9,10 +10,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTheme } from "next-themes";
 import Header from "@/components/Header";
-AOS.init();
 
 export default function Portfolio() {
   const { theme } = useTheme();
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>
