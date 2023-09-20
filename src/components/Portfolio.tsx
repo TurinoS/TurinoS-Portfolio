@@ -34,7 +34,9 @@ export default function Portfolio({ projects }: PortfolioProps) {
       </h2>
 
       {projects?.map((project) => (
-        <div className="flex even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500" key={project.id}
+        <div
+          className="flex even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500"
+          key={project.id}
           data-aos="fade-up"
           data-aos-duration="1300"
         >
@@ -82,6 +84,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
             </p>
             <div className={`flex gap-10 self-center justify-self-end mt-2`}>
               <Link
+                target="_blank"
                 href={project.app}
                 className={`button-gradient text-xl font-bold py-1 px-2 mr-10 border border-transparent transition-color ${
                   theme === "dark" && "button-gradient-dark"
@@ -90,6 +93,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
                 Aplicação
               </Link>
               <Link
+                target="_blank"
                 href={project.repo}
                 className={`button-gradient text-xl font-bold py-1 px-2 mr-10 border border-transparent transition-color ${
                   theme === "dark" && "button-gradient-dark"
@@ -101,6 +105,14 @@ export default function Portfolio({ projects }: PortfolioProps) {
           </div>
         </div>
       ))}
+      <Link
+        href="/portfolio"
+        className={`button-gradient text-xl font-bold py-2 px-10 mt-4 border border-transparent transition-color self-center ${
+          theme === "dark" && "button-gradient-dark"
+        }`}
+      >
+        Ver todos os projetos
+      </Link>
     </section>
   );
 }
