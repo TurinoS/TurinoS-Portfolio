@@ -127,4 +127,16 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/TurinoS/world-countries",
     app: "https://world-countries-turinos.vercel.app/",
   },
+  {
+    id: 11,
+    name: "Template site para ONG",
+    imgs: [
+      "/ONG1.jpg", 
+      "/ONG2.jpg",
+      "/ONG3.jpg"
+    ],
+    text: "Um dos meus primeiros projetos próprios, construído com React, me ajudou a entender o uso do Routes e me apresentou as dificuldades que um design mais ousado pode trazer para o desenvolvedor.",
+    repo: "https://github.com/TurinoS/Centro-Social-Sta-Rita",
+    app: "https://template-ong-turinos.vercel.app/",
+  },
 ];
