@@ -33,7 +33,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
         Meus projetos
       </h2>
 
-      {projects?.map((project) => (
+      {projects?.filter((project) => [2, 3, 8].includes(project.id)).map((project) => (
         <div
           className="flex even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500"
           key={project.id}
