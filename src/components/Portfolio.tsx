@@ -23,7 +23,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
   return (
     <section
       id="portfolio"
-      className={`flex flex-col gap-10 w-full pb-10 md:pb-16 px-2 pt-10 md:px-24`}
+      className={`flex flex-col gap-10 w-full pb-10 md:pb-16 px-2 pt-10 md:pt-0 md:px-24`}
     >
       <h2
         className={`text-4xl text-center font-bold ${
