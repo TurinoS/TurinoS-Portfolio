@@ -7,7 +7,7 @@ export default function Banner() {
     const { theme } = useTheme()
     return(
         <section className="flex flex-col-reverse md:flex-row justify-between w-full pt-4 pb-8 md:pb-0 md:pt-24" id="banner">
-            <div className={`flex flex-col justify-center text-center items-center m-auto mt-6 md:mt-0 ${theme === 'dark'? "dark-text-gradient" : "text-gradient"}`}>
+            <div className={`flex flex-col justify-center text-center items-center mx-auto mt-6 md:mt-0 ${theme === 'dark'? "dark-text-gradient" : "text-gradient"}`}>
                 <h1 className="text-5xl md:text-6xl font-bold">Paulo Turino Silva</h1>
                 <h2 className="text-3xl md:text-4xl font-bold">Desenvolvedor Frontend</h2>
                 <div className="flex gap-2 md:gap-4 mt-10 items-center">
