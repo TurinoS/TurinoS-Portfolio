@@ -23,7 +23,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
   return (
     <section
       id="portfolio"
-      className={`flex flex-col gap-10 w-full pb-16 px-24 `}
+      className={`flex flex-col gap-10 w-full pb-10 md:pb-16 px-2 pt-10 md:px-24`}
     >
       <h2
         className={`text-4xl text-center font-bold ${
@@ -35,12 +35,19 @@ export default function Portfolio({ projects }: PortfolioProps) {
 
       {projects?.filter((project) => [2, 3, 8].includes(project.id)).map((project) => (
         <div
-          className="flex even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500"
+          className="flex flex-col md:flex-row md:even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500"
           key={project.id}
           data-aos="fade-up"
           data-aos-duration="1300"
         >
-          <div className="w-full cursor-grab rounded-xl mt-2 relative">
+          <h3
+              className={`md:hidden text-2xl text-center font-bold ${
+                theme === "dark" ? "dark-text-gradient" : "text-gradient"
+              }`}
+            >
+              {project.name}
+            </h3>
+          <div className="w-full cursor-grab rounded-xl mt-2 self-center relative">
             <div className="group overflow-hidden rounded-xl">
               <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
@@ -54,7 +61,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
                   delay: 4000,
                   disableOnInteraction: false,
                 }}
-                className="relative overflow-hidden w-[500px] border-4 rounded-2xl border-blue-900 dark:border-orange-500 shadow-2xl"
+                className="relative overflow-hidden w-[310px] md:w-[500px] border-4 rounded-2xl border-blue-900 dark:border-orange-500 shadow-2xl"
               >
                 {project.imgs.map((img: string, index) => (
                   <SwiperSlide key={index}>
@@ -73,20 +80,20 @@ export default function Portfolio({ projects }: PortfolioProps) {
 
           <div className="flex flex-col pb-2 mt-6">
             <h3
-              className={`text-2xl text-center font-bold ${
+              className={`hidden md:block text-2xl text-center font-bold ${
                 theme === "dark" ? "dark-text-gradient" : "text-gradient"
               }`}
             >
               {project.name}
             </h3>
-            <p className="text-lg h-full dark:text-orange-200 text-blue-900 py-4 px-8">
+            <p className="text-lg h-full dark:text-orange-200 text-blue-900 px-2 pb-2 md:p-4">
               {project.text}
             </p>
-            <div className={`flex gap-10 self-center justify-self-end mt-2`}>
+            <div className={`flex gap-10 self-center md:justify-self-end mt-2`}>
               <Link
                 target="_blank"
                 href={project.app}
-                className={`button-gradient text-xl font-bold py-1 px-2 mr-10 border border-transparent transition-color ${
+                className={`button-gradient text-xl font-bold py-1 px-2 md:mr-10 border border-transparent transition-color ${
                   theme === "dark" && "button-gradient-dark"
                 }`}
               >
@@ -95,7 +102,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
               <Link
                 target="_blank"
                 href={project.repo}
-                className={`button-gradient text-xl font-bold py-1 px-2 mr-10 border border-transparent transition-color ${
+                className={`button-gradient text-xl font-bold py-1 px-2 md:mr-10 border border-transparent transition-color ${
                   theme === "dark" && "button-gradient-dark"
                 }`}
               >
@@ -107,7 +114,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
       ))}
       <Link
         href="/portfolio"
-        className={`button-gradient text-xl font-bold py-2 px-10 mt-4 border border-transparent transition-color self-center ${
+        className={`button-gradient text-xl font-bold py-2 px-10 md:mt-4 border border-transparent transition-color self-center ${
           theme === "dark" && "button-gradient-dark"
         }`}
       >
