@@ -4,7 +4,7 @@ import { aboutText } from "@/lists/aboutText";
 export default function History() {
     const { theme } = useTheme()
     return(
-        <section id="history" className={`flex flex-col py-16 gap-4 ${
+        <section id="history" className={`flex flex-col py-10 md:py-16 gap-4 ${
             theme === "dark"
               ? "bg-[var(--bg-dark-secondary)]"
               : "bg-[var(--bg-light-secondary)]"
@@ -16,7 +16,7 @@ export default function History() {
           >
             Minha história
           </h2>
-          <div className="flex flex-col gap-4 px-16">
+          <div className="flex flex-col gap-3 md:gap-4 px-2 md:px-16">
             {aboutText.map((p) => (
               <p
                 key={p.id}

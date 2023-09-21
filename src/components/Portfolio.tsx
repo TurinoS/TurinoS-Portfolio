@@ -61,7 +61,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
                   delay: 4000,
                   disableOnInteraction: false,
                 }}
-                className="relative overflow-hidden w-[310px] md:w-[500px] border-4 rounded-2xl border-blue-900 dark:border-orange-500 shadow-2xl"
+                className="relative overflow-hidden w-[304px] md:w-[500px] border-4 rounded-2xl border-blue-900 dark:border-orange-500 shadow-2xl"
               >
                 {project.imgs.map((img: string, index) => (
                   <SwiperSlide key={index}>
