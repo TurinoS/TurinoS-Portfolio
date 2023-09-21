@@ -16,7 +16,7 @@ export default function Banner() {
                     <a id="about" href="https://github.com/TurinoS" target="_blank" className="text-6xl duration-300 hover:-translate-y-2 hover:scale-110"><AiFillGithub /></a>
                 </div>
             </div>
-            <Image src={profile} alt="Foto do Paulo Turino" width={300} className="m-auto" />
+            <Image src={profile} alt="Foto do Paulo Turino" width={300} className="m-auto" priority />
         </section>
     )
 }
