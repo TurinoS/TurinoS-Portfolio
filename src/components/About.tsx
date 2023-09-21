@@ -8,7 +8,7 @@ export default function About() {
   const { theme } = useTheme();
 
   return (
-    <section className="flex flex-col my-16">
+    <section className="flex flex-col md:my-16">
       <div
         className={`flex px-20 py-12 ${
           theme === "dark"
