@@ -8,7 +8,8 @@ export default function History() {
             theme === "dark"
               ? "bg-[var(--bg-dark-secondary)]"
               : "bg-[var(--bg-light-secondary)]"
-          }`}>
+          }`}
+          style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, .4)" }}>
           <h2
             className={`text-4xl text-center self-center font-bold pb-4 ${
               theme === "dark" ? "dark-text-gradient" : "text-gradient"
