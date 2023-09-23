@@ -35,7 +35,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
 
       {projects?.filter((project) => [2, 3, 8].includes(project.id)).map((project) => (
         <div
-          className="flex flex-col md:flex-row md:even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed border-blue-900 dark:border-orange-500"
+          className={`flex flex-col md:flex-row md:even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed ${theme === "dark" ? "border-orange-500" : "border-blue-900"}`}
           key={project.id}
           data-aos="fade-up"
           data-aos-duration="1300"
@@ -61,12 +61,12 @@ export default function Portfolio({ projects }: PortfolioProps) {
                   delay: 4000,
                   disableOnInteraction: false,
                 }}
-                className="relative overflow-hidden w-[304px] md:w-[500px] border-4 rounded-2xl border-blue-900 dark:border-orange-500 shadow-2xl"
+                className={`relative overflow-hidden w-[304px] md:w-[500px] border-4 rounded-2xl shadow-2xl ${theme === "dark" ? "border-orange-500" : "border-blue-900"}`}
               >
                 {project.imgs.map((img: string, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="rounded-xl duration-700 border border-blue-900 dark:border-orange-500"
+                      className={`rounded-xl duration-2000 border ${theme === "dark" ? "border-orange-500" : "border-blue-900"}`}
                       src={img}
                       alt="Thumbnail Pokédex"
                       width={500}
@@ -86,7 +86,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
             >
               {project.name}
             </h3>
-            <p className="text-lg h-full dark:text-orange-200 text-blue-900 px-2 pb-2 md:p-4">
+            <p className={`text-lg h-full px-2 pb-2 md:p-4 ${theme === "dark" && "text-orange-200"}`}>
               {project.text}
             </p>
             <div className={`flex gap-10 self-center md:justify-self-end mt-2`}>

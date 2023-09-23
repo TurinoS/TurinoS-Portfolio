@@ -21,7 +21,7 @@ export default function History() {
             {aboutText.map((p) => (
               <p
                 key={p.id}
-                className="text-xl dark:text-orange-200 text-blue-900"
+                className={`text-xl ${theme === "dark" && "text-orange-200"}`}
               >
                 {p.text}
               </p>

@@ -21,13 +21,13 @@ export default function Header({ portfolio }: HeaderProps) {
 
   return (
     <header
-      className={`flex justify-between items-center py-1 md:py-3 px-2 md:px-20 bg-[var(--bg-light-secondary)] dark:bg-[var(--bg-dark-secondary)] text-xl md:text-5xl font-bold sticky top-0 z-20 ${chakra.className}`}
+      className={`flex justify-between items-center py-1 md:py-3 px-2 md:px-20 ${theme === "dark" ? "bg-[var(--bg-dark-secondary)]" : "bg-[var(--bg-light-secondary)]"} text-xl md:text-5xl font-bold sticky top-0 z-20 ${chakra.className}`}
       style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.4)" }}
     >
       <button className={`md:hidden ${portfolio && "hidden"}`} onClick={() => setOpenMenu(!openMenu)}><GiHamburgerMenu /></button>
       {openMenu && 
         <nav 
-          className="flex flex-col p-2 pr-8 absolute top-11 left-[1px] rounded bg-[var(--bg-light-secondary)] dark:bg-[var(--bg-dark-secondary)]"
+          className={`flex flex-col p-2 pr-8 absolute top-11 left-[1px] rounded ${theme === "dark" ? "bg-[var(--bg-dark-secondary)]" : "bg-[var(--bg-light-secondary)]"}`}
           style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.4)" }}
         >
          <a
