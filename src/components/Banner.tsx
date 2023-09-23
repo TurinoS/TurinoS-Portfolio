@@ -24,7 +24,7 @@ export default function Banner() {
             data-aos-duration="500"    
         >
           <a
-            href="https://drive.google.com/file/d/1WymOGaZioacMD8DYMKgMAJr1IzmkWqJQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oNFCHRBPzfjCKP-3RsP41Hoem1mXfZrM/view?usp=sharing"
             target="_blank"
             className={`button-gradient text-xl font-bold py-2 px-6 md:mr-10 border border-transparent transition-color ${
               theme === "dark" && "button-gradient-dark"
