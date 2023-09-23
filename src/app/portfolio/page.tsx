@@ -5,11 +5,19 @@ import Link from "next/link";
 import { useEffect } from "react"
 import { projects } from "@/lists/projects";
 import { SwiperSlide, Swiper } from "swiper/react";
+import { register } from "swiper/element";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/effect-fade";
+import "swiper/css/autoplay";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTheme } from "next-themes";
 import Header from "@/components/Header";
+register();
 
 export default function Portfolio() {
   const { theme } = useTheme();

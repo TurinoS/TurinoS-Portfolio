@@ -117,6 +117,8 @@ export default function Portfolio({ projects }: PortfolioProps) {
         className={`button-gradient text-xl font-bold py-2 px-10 md:mt-4 border border-transparent transition-color self-center ${
           theme === "dark" && "button-gradient-dark"
         }`}
+        data-aos="flip-up"
+        data-aos-duration="800"
       >
         Ver todos os projetos
       </Link>
