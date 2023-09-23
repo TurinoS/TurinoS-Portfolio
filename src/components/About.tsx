@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section className="flex flex-col md:my-16">
       <div
-        className={`flex flex-col-reverse md:flex-row px-4 py-8 md:px-20 md:py-12 ${
+        className={`flex flex-col-reverse md:flex-row px-2 py-8 md:px-16 md:py-12 ${
           theme === "dark"
             ? "bg-[var(--bg-dark-secondary)]"
             : "bg-[var(--bg-light-secondary)]"
@@ -64,13 +64,19 @@ export default function About() {
             Quem sou eu
           </h2>
           <p className="text-xl dark:text-orange-200">
-            Tenho um compromisso sólido com a resolução de problemas e uma
-            habilidade natural para comunicação eficaz. Minha flexibilidade e
-            desejo constante de aprendizado me tornam um colaborador valioso em
-            equipes dinâmicas. Se você está interessado em explorar
-            oportunidades de colaboração, estou à disposição para uma conversa.
+            Desde julho de 2022, mergulhei de cabeça no mundo do desenvolvimento
+            frontend. O processo de criação de interfaces envolventes e
+            aprimoramento da experiência do usuário me apaixonam. Estou
+            constantemente explorando novas maneiras de transformar conceitos
+            criativos em realidade digital. Se você compartilha dessa paixão ou
+            está interessado em oportunidades de colaboração, estou à disposição
+            para uma conversa.
           </p>
-          <div className="flex gap-10 self-center text-4xl md:mt-4" id="portfolio">
+          <div
+            className="flex items-center gap-4 self-center text-4xl md:mt-4"
+            id="portfolio"
+          >
+            <p className="text-lg font-bold hidden md:block">Contatos:</p>
             <a
               target="_blank"
               href="mailto:paulo.turino01@gmail.com"
