@@ -43,7 +43,7 @@ export default function Portfolio() {
         className={`flex flex-col md:flex-row md:even:flex-row-reverse gap-2 pb-12 border-b-2 border-dashed ${theme === "dark" ? "border-orange-500" : "border-blue-900"}`}
           key={project.id}
           data-aos="fade-up"
-          data-aos-duration="1300"
+          data-aos-duration="500"
         >
           <h3
               className={`md:hidden text-2xl text-center font-bold ${

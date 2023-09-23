@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ProjectsTypes } from "@/lists/projects";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { register } from "swiper/element";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,7 +11,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
 register();
 
 interface PortfolioProps {

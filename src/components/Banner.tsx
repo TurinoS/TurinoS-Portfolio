@@ -7,11 +7,11 @@ export default function Banner() {
   const { theme } = useTheme();
   return (
     <section
-      className="flex flex-col-reverse md:flex-row justify-between w-full pt-4 pb-8 md:pb-0 md:pt-24"
+      className="flex flex-col-reverse md:flex-row justify-center w-full pt-4 pb-8 md:pb-0 md:pt-24 md:gap-40"
       id="banner"
     >
       <div
-        className={`flex flex-col justify-center text-center items-center mx-auto mt-6 md:mt-0 ${
+        className={`flex flex-col justify-center text-center items-center mt-6 md:mt-0 ${
           theme === "dark" ? "dark-text-gradient" : "text-gradient"
         }`}
       >
@@ -53,7 +53,7 @@ export default function Banner() {
         src={profile}
         alt="Foto do Paulo Turino"
         width={300}
-        className="m-auto"
+        className="m-auto md:m-0"
         priority
       />
     </section>
