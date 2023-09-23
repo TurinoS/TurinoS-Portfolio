@@ -48,7 +48,7 @@ export default function Portfolio({ projects }: PortfolioProps) {
               {project.name}
             </h3>
           <div className="w-full cursor-grab rounded-xl mt-2 self-center relative">
-            <div className="group overflow-hidden rounded-xl">
+            <div className={`group overflow-hidden rounded-xl ${theme === "dark" ? "border-orange-500" : "border-blue-900"}`}>
               <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 slidesPerView={1}
