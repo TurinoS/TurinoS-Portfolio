@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfólio do Paulo Turino
 
-## Getting Started
+## Você pode ver o projeto em funcionamento [AQUI](https://turinos-portfolio.vercel.app/)
 
-First, run the development server:
+Bem-vindo ao meu Portfólio de Desenvolvedor Frontend! Este projeto foi criado para apresentar meu trabalho, habilidades e paixão pelo desenvolvimento web. Aqui, você encontrará meus projetos e minhas experiências que demonstram meu conhecimento em tecnologias como React, Next.js, TypeScript, JavaScript, HTML, CSS e muito mais.
+  
+## Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Neste portfólio, você poderá explorar:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Projetos**: Uma seleção de projetos web que demonstram meu domínio em desenvolvimento frontend, desde aplicações interativas até sites responsivos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Tecnologias**: Minha proficiência em uma ampla gama de tecnologias e frameworks que utilizo para criar experiências web excepcionais.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Experiência**: Minhas experiências que refletem meu comprometimento em aprender e crescer continuamente.
 
-## Learn More
+Sinta-se à vontade para navegar, explorar meus projetos e entrar em contato para colaborações ou oportunidades de trabalho. Espero que este portfólio mostre meu entusiasmo pelo desenvolvimento frontend e minha dedicação em criar interfaces web envolventes.
 
-To learn more about Next.js, take a look at the following resources:
+Obrigado por visitar!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tecnologias utilizadas:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
++ Next.js
++ TypeScript
++ Tailwind CSS
 
-## Deploy on Vercel
+## 😎 Minhas redes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
++ Linkedin - [paulo-turino](https://www.linkedin.com/in/paulo-turino/)
++ Instagram - [@paulo_turino](https://www.instagram.com/paulo_turino/)
++ GitHub - [TurinoS](https://github.com/TurinoS)
