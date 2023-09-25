@@ -7,7 +7,7 @@ export default function Banner() {
   const { theme } = useTheme();
   return (
     <section
-      className="flex flex-col-reverse md:flex-row justify-center w-full pt-4 pb-8 md:pb-0 md:pt-24 md:gap-40"
+      className="flex flex-col-reverse md:flex-row justify-center w-full pt-4 pb-8 md:pb-0 md:pt-10 md:gap-40"
       id="banner"
     >
       <div
@@ -52,7 +52,7 @@ export default function Banner() {
       <Image
         src={profile}
         alt="Foto do Paulo Turino"
-        width={300}
+        width={350}
         className="m-auto md:m-0"
         priority
       />
