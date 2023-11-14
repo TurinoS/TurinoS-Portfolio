@@ -10,6 +10,17 @@ export type ProjectsTypes = {
 export const projects: ProjectsTypes[] = [
   {
     id: 1,
+    name: `Hero's Journey`,
+    imgs: [
+      "/heros1.jpg", 
+      "/heros2.jpg",
+    ],
+    text: "Construido utilizando Next.js, TypeScript e Tailwind CSS. A maior dificuldade foi consumir a API que usa o método HTTP, o qual é bloqueado no navegadores modernos, então tive que aprender a utilizar os Route Handlers do Next.js.",
+    repo: "https://github.com/TurinoS/Jornada-do-Heroi",
+    app: "https://heros-journey-turinos.vercel.app/",
+  },
+  {
+    id: 2,
     name: "Rock Paper Scissors",
     imgs: [
       "/jokenpo1.jpg", 
@@ -21,7 +32,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://rock-paper-scissors-game-turinos.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "NBA Players Stats",
     imgs: [
       "/nba1.jpg", 
@@ -33,7 +44,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://nba-players-stats-turinos.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "TurinoS Store",
     imgs: [
       "/ecommerce1.jpg", 
@@ -45,7 +56,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://turinos-store.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Multi Step Form",
     imgs: [
       "/multistep1.jpg", 
@@ -59,7 +70,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://vercel.com/turinos/multi-step-form",
   },
   {
-    id: 5,
+    id: 6,
     name: "Advice Generator",
     imgs: [
       "/advice1.jpg", 
@@ -71,7 +82,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://advice-generator-turinos.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "TMDB App",
     imgs: [
       "/tmdb1.jpg", 
@@ -83,7 +94,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://top-movies-turinos.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Calculadora de idade",
     imgs: [
       "/age1.jpg", 
@@ -94,7 +105,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://age-calculator-turinos.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Pokédex",
     imgs: [
       "/pokedex1.jpg", 
@@ -106,7 +117,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://pokedex-turinos.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     name: "Marvel Heroes",
     imgs: [
       "/marvel1.jpg", 
@@ -117,7 +128,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://marvel-fpass-turinos.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     name: "World Countries",
     imgs: [
       "/countries1.jpg", 
@@ -128,7 +139,7 @@ export const projects: ProjectsTypes[] = [
     app: "https://world-countries-turinos.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "Template site para ONG",
     imgs: [
       "/ONG1.jpg", 
