@@ -19,12 +19,13 @@ export default function Banner() {
         <h2 className="text-3xl md:text-4xl font-bold">
           Desenvolvedor Frontend
         </h2>
-        <div className="flex gap-2 md:gap-4 mt-10 items-center"
-            data-aos="flip-down"
-            data-aos-duration="500"    
+        <div
+          className="flex gap-2 md:gap-4 mt-10 items-center"
+          data-aos="flip-down"
+          data-aos-duration="500"
         >
           <a
-            href="https://drive.google.com/file/d/1FAdP6OPosm5OH7TqcCBSMJUp46d0kx86/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pQcR2lEgtXiK5Ty774FCN-7cF0iTuJ-8/view?usp=drive_link"
             target="_blank"
             className={`button-gradient text-xl font-bold py-2 px-6 md:mr-10 border border-transparent transition-color ${
               theme === "dark" && "button-gradient-dark"

@@ -45,6 +45,10 @@ export const techs: TechsTypes[] = [
     icon: "devicon-html5-plain",
   },
   {
+    name: "Angular",
+    icon: "devicon-angularjs-plain",
+  },
+  {
     name: "Node",
     icon: "devicon-nodejs-plain",
   },
